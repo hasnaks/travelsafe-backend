@@ -8,6 +8,12 @@
  */
 
 import {setGlobalOptions} from "firebase-functions";
+
+export {createSOS} from "./sos/sos";
+export {createEmergency} from "./emergency/emergency";
+export {createSilentSOS} from "./silent-sos/silent-sos";
+export {createVolunteerAlert} from "./volunteers/volunteer-alert";
+export {sendNotification} from "./notifications/notifications";
 // import {onRequest} from "firebase-functions/https";
 // import * as logger from "firebase-functions/logger";
 
