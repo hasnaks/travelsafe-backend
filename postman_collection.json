@@ -1,10 +1,29 @@
 {
   "info": {
-    "name": "Backend Member 1 API Suite - Safety & Guardian Services",
-    "description": "API collection for Authentication, Silent Duress PIN, User Medical Profile, and Guardian Management.",
+    "name": "Backend Member 1 API Suite - Live Firebase (travelsafe-35674)",
+    "description": "API collection for Authentication, Silent Duress PIN, User Medical Profile, and Guardian Management connected to Firebase project travelsafe-35674.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
+    {
+      "name": "Firebase & Health Specs",
+      "item": [
+        {
+          "name": "Get Server Health & Firebase Project ID",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "http://localhost:5000/api/v1/health" }
+          }
+        },
+        {
+          "name": "Get Firebase Config Object",
+          "request": {
+            "method": "GET",
+            "url": { "raw": "http://localhost:5000/api/v1/firebase-config" }
+          }
+        }
+      ]
+    },
     {
       "name": "Authentication & PIN Security",
       "item": [
